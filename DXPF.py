@@ -116,8 +116,7 @@ class DXPF:
             self.kc.press(Key.enter)
             self.kc.release(Key.enter)
 
-
-d = DXPF()
-d.delay = 2
-d.getCurrentPosition(savePos=True)
-d.startWriting()
+if __name__ == "__main__":
+    d = DXPF()
+    d.getCurrentPosition(savePos=True)
+    d.startWriting()
