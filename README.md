@@ -27,7 +27,11 @@ Two things are required:
 2. `Pynput Module`: which can be downloaded either by doing "`python -m pip
    install pynput`" on commandline or let the script download it for you.
 
-After those two are ready, we can start using the bot.
+After those two are ready, we can start using the bot:
+
+```bash
+git clone https://www.github.com/ElhamAryanpur/DiscordXPFarmer
+```
 
 ### Step 2 import
 
