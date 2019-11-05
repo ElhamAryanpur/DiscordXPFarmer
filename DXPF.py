@@ -78,7 +78,7 @@ class DXPF:
         self.delay = 61
 
         # Set a default mouse position
-        self.mousePosition = ()
+        self.mousePosition = (500,500)
 
     # Print Current Mouse Posistion
     def getCurrentPosition(self, savePos=False):
