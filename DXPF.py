@@ -72,7 +72,7 @@ class DXPF:
         self.kc = keyboard.Controller()
 
         # Set a typing speed in second
-        self.speed = 0.3
+        self.speed = 0.1
 
         # Set a delay before every writing in seconds
         self.delay = 61
@@ -85,18 +85,19 @@ class DXPF:
         '''
         Used to print current position of mouse.
         '''
-        print(self.mc.position)
+        print("Mouse Position: {}".format(self.mc.position))
 
         # Check If Position Should Be Saved
         if savePos:
             self.mousePosition = self.mc.position
-    
+
     # Write now
     def startWriting(self, mousePos=False):
         '''
         By Calling This Function, The Bot Start! 
         '''
         print(helper.bcolors.WARNING + "\n\nRUNNING ON WHILE LOOP, DO CTRL + C TO CANCEL...")
+        log = 0
         while True:
             time.sleep(self.delay)
             toSay = choice(self.DB)
@@ -116,7 +117,11 @@ class DXPF:
             self.kc.press(Key.enter)
             self.kc.release(Key.enter)
 
+            print("\nMessage #{}: {}".format(log, toSay))
+            log += 1
+
 if __name__ == "__main__":
     d = DXPF()
+    d.delay = 5
     d.getCurrentPosition(savePos=True)
     d.startWriting()

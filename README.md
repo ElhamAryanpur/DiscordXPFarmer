@@ -96,7 +96,7 @@ you rather than bot.
 
 That was all for now... more features coming soon...
 
-If you had problems, you can open a issue. or contact me by
+If you had problems, you can open an issue. or contact me by
 [Facebook](https://www.facebook.com/elham.aryanpur.10),
 [Instagram](https://www.instagram.com/elham_aryanpur), or discord with tag
 `#9162`.
