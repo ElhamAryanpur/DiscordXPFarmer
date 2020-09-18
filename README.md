@@ -24,8 +24,7 @@ Two things are required:
 1. `Python Programming language`: Which can be downloaded from
    [Here](https://www.python.org)
 
-2. `Pynput Module`: which can be downloaded either by doing "`python -m pip
-   install pynput`" on commandline or let the script download it for you.
+2. `Dependencies Modules`: which can be downloaded by doing "`python -m pip install -r requirements.txt`" on commandline.
 
 After those two are ready, we can start using the bot:
 

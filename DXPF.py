@@ -122,6 +122,5 @@ class DXPF:
 
 if __name__ == "__main__":
     d = DXPF()
-    d.delay = 5
     d.getCurrentPosition(savePos=True)
     d.startWriting()
