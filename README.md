@@ -14,6 +14,8 @@ All this bot does is to take `control` of your `mouse` and `keyboard` and write 
 
 ## Usage
 
+The bot uses data in the `DB` module in the misc folder. The data there is in list form and string. Upon time of writing, they'll be randomly choosen. For your data to be used, you can either expand that already provided list, or make your own. Just make sure to have that `db` function return results as list of strings.
+
 This is `python 3` based module and it can be imported and used by code. let's do
 `step by step` shall we?
 
